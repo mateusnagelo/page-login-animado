@@ -1,13 +1,13 @@
 function logar() {
 
-    var login = document.getElementById('login').value;
-    var senha = document.getElementById('senha').value;
+    var usuario = document.getElementById('usuario').value;
+    var password = document.getElementById('password').value;
 
 
-    if (login == "suporte" && senha == "1") {
-        // alert('Sucesso');
+    if (usuario == "Mateus" && password == "1") {
+        alert('Sucesso');
 
-        location.href = "https://mcnsistemas.netlify.app/";
+        location.href = "";
 
     } else {
         alert('Usuario ou senha incorretos')
