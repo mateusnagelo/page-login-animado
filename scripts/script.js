@@ -28,3 +28,8 @@ document.addEventListener("keypress", function(e) {
     }
 
 });
+// var password = document.querySelector('#password input');
+// var img = document.querySelector('#password img');
+// img.addEventListener('click', function() {
+//     input.type = input.type == 'text' ? 'password' : 'text';
+// });
