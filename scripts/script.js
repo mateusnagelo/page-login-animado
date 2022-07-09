@@ -10,7 +10,7 @@ function logar() {
         location.href = "";
 
     } else {
-        alert('Dados incorretos')
+        alert('Favor verifique seus dados')
     }
 
 }
